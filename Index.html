@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>kuis online sederhana</title>
+  <link rel="stylesheet"
+  href="style.css"
+</head>
+<body>
+  <div class="container">
+    
+  
+      <h1>kuis online seputar mustholah hadits</h1>
+      <from id="quizForm">
+        
+      </from>
+      
+      <div class="question"
+        <p>1. negara islam pertama kali berdiri di?</p>
+        <label><input type="radio" name ="q1" value="0">Andalusia</label>
+              
+                <label><input type="radio" name="q1" value="20"> madinah</label>
+                <label><input type="radio" name="q1" value="0"> mekah</label>
+                <label><input type="radio" name="q1" value="0">palestin</label>
+            </div>
+
+            <div class="question">
+                <p>2. di katakan hadits itu shohih  ?</p>
+                <label><input type="radio" name="q2" value="0"> sanadnya tersambung </label>
+                <label><input type="radio" name="q2" value="20">diriwayatkan oleh perowih yang adl dhobit yang terhindar dari syudud dan ilat</label>
+                <label><input type="radio" name="q2" value="0">diriwayatkan oleh 1 rowih</label>
+                <label><input type="radio" name="q2" value="0">sering weriwayatlan hadits</label>
+            </div>
+
+            <div class="question">
+                <p>3. Hadits yang diriwayatkan oleh banyak perawi pada setiap tingkatan sanad sehingga mustahil mereka berdusta disebut hadits</p>
+                <label><input type="radio" name="q3" value="20"> mutawatir</label>
+                <label><input type="radio" name="q3" value="0">Ahad</label>
+                <label><input type="radio" name="q3" value="0">ghorib </label>
+                <label><input type="radio" name="q3" value="0">mursal</label>
+            </div>
+
+            <div class="question">
+                <p>4. Hadits yang terputus sanadnya karena sahabat tidak disebutkan disebut hadits</p>
+                <label><input type="radio" name="q4" value="20">mursal</label>
+                <label><input type="radio" name="q4" value="0">Muallaq </label>
+                <label><input type="radio" name="q4" value="0">Munqothi'</label>
+                <label><input type="radio" name="q4" value="0">Mudallas</label>
+            </div>
+
+            <div class="question">
+                <p>5. Hadits yang lemah karena cacat pada perawi atau sanad disebut hadits …</p>
+                <label><input type="radio" name="q5" value="0">shohih</label>
+                <label><input type="radio" name="q5" value="0">Hasan</label>
+                <label><input type="radio" name="q5" value="20"> Dhoif</label>
+                <label><input type="radio" name="q5" value="0">Mutawatir</label>
+            </div>
+
+            <button type="button" onclick="hitungSkor()">Kirim</button>
+            <button type="button" onclick="ulangKuis()">Ulangi Kuis</button>
+        </form>
+
+        <div id="hasil"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

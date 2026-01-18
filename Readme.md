@@ -1,0 +1,1 @@
+proyek yang saya buat itu adalah kuis online bagi siapa saja yang ingin mengerjakan caranya hanya memilih pilihan yang benar sesuai soal yang telah di berikan, satu soal bernilai 20 poin, dan jika skor kamu kurang dari 70 maka kamu tidak akan lulus... selamat mengerjakan
